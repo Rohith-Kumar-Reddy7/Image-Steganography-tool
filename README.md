@@ -28,6 +28,13 @@ after encrypting the normal text using AES-256 bit encryption algorithm.The tool
 6. Clicking "extract" image to extract text from image displayed in "stego image" panel and the retrieved information would be displayed in "secret data" text area.
 7. The small colored panel on the bottom right side will show the status of tool in intutive colors.
 
+## How to start the application
+
+1. Open the terminal in folder having all java files present in this repo.
+2. compile the "Stegano_GUI.java" file by entering "javac Stegano_GUI.java".
+3. Start the appliccation by entering "java Stegano_GUI" in the terminal.
+4. After that the application starts.
+   
 ## How to embed text into image
 
 1. Enter the password into "password" text field.
