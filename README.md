@@ -18,7 +18,7 @@ after encrypting the normal text using AES-256 bit encryption algorithm.The tool
 7. Can retrieve encrypted text embedded in image,decrypt it and show it to the user(if the user has entered the password correctly).
 
 ## Interface explanation
-![Stegano_Interface](https://github.com/Rohith-Kumar-Reddy7/Image-Steganography-using-AES-ecnryption-and-LSB-encoding-method/assets/130598135/da1f6de3-ed05-44a6-b8db-307587a3ba2a)
+![Stegano_Interface](screenshots/Steg1.jpg)
 
 1. In the "password" text field enter the password.
 2. In the "secret data" text area enter the text that has to be embedded into the image.
@@ -44,7 +44,7 @@ after encrypting the normal text using AES-256 bit encryption algorithm.The tool
 5. Wait untill the status panel shows "completed embedding".
 6. The resulting image would be stored in the same directory where these java codes are present.
 7. Also the resulting image would be displayed in the "stego image" panel as shown below.
-8. ![after embedding](https://github.com/Rohith-Kumar-Reddy7/Image-Steganography-using-AES-ecnryption-and-LSB-encoding-method/assets/130598135/f3125dd7-78a3-49eb-84b8-765a5a52f981)
+8. ![after embedding](screenshots/Steg2.JPG)
 
 
 ## How to clear the current selected image
@@ -58,9 +58,9 @@ after encrypting the normal text using AES-256 bit encryption algorithm.The tool
 3. Select the image which is holding text.
 4. Click on "Extract" button which is present at bottom.
 5. If the password is incorrect.It displays the same as shown below.
-   ![wrong password](https://github.com/Rohith-Kumar-Reddy7/Image-Steganography-using-AES-ecnryption-and-LSB-encoding-method/assets/130598135/62c23b74-fb73-465e-a670-734a35d779d7)
+   ![wrong password](screenshots/Steg3.JPG)
 
 7. Wait until the status changes to "extraction completed".
 8. The secret text will be displayed in the "secret data" text area as shown below.
    
-    ![succesfull extract](https://github.com/Rohith-Kumar-Reddy7/Image-Steganography-using-AES-ecnryption-and-LSB-encoding-method/assets/130598135/b337e1da-ac61-4db1-8b4e-700c2ca5d88e)
+    ![succesfull extract](screenshots/Steg4.JPG)
